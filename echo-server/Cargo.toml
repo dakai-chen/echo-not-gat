@@ -1,0 +1,12 @@
+[package]
+name = "echo-server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+echo-core = { path = "../echo-core", version = "0.1.0" }
+hyper = { version = "1.0.0-rc.2", features = ["server", "http1"] }
+tokio = { version = "1", features = ["rt", "net", "macros"] }
+pin-project-lite = "0.2"

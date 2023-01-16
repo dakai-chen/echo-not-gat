@@ -1,0 +1,15 @@
+[package]
+name = "echo-service"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = ["alloc", "util"]
+alloc = []
+util = ["pin-project-lite", "futures-util"]
+
+[dependencies]
+futures-util = { version = "0.3", optional = true }
+pin-project-lite = { version = "0.2", optional = true }

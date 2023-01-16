@@ -1,0 +1,12 @@
+[package]
+name = "echo-route"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+echo-core = { path = "../echo-core", version = "0.1.0" }
+matchit = "0.7"
+pin-project-lite = "0.2"
+sync_wrapper = "0.1"

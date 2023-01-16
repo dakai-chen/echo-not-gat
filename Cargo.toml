@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "echo",
+    "echo-body",
+    "echo-core",
+    "echo-macros",
+    "echo-middleware",
+    "echo-multipart",
+    "echo-route",
+    "echo-server",
+    "echo-service",
+    "echo-sse",
+    "echo-ws",
+]
